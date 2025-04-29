@@ -22,7 +22,7 @@ function findMovie(e){
 watermark.style.display = "none"
 
 
-fetch(`http://www.omdbapi.com/?apikey=${key}&t=${movieQuery}`)
+fetch(`https://www.omdbapi.com/?apikey=${key}&t=${movieQuery}`)
 .then(res => res.json())
 .then(data => {
 
